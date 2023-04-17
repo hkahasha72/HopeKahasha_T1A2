@@ -15,13 +15,12 @@ funtions and features that my portfolio provides are
 - Another functionality is the social bar oon the footer which directs you to the social media platform whichs icon u click on
 
 Sitemap
-<>
+![screenshot of sitemap](https://github.com/hkahasha72/HopeKahasha_T1A2/issues/1#issuecomment-1511514039)
 
 Screenshots
 
 in these screenshot you will see the gist of my website when in different responsive frames such as mobile and tablet, i attempted to make my website flow as best as possible with text, color and theme.
-![Screenshots](https://github.com/hkahasha72/HopeKahasha_T1A2/issues/1#issue-1671348343)
-
+![Screenshots of website and responsiveness](https://github.com/hkahasha72/HopeKahasha_T1A2/issues/1#issuecomment-1511511535)
 
 
 
