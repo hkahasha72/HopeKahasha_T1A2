@@ -30,7 +30,6 @@ p {
 }
 
 
-
 #one  {
   background-color: black;
   height: 90vh;
@@ -42,7 +41,6 @@ p {
   display: flex;
 }
 
-
 .Text {
   font-size: 5rem;
   font-weight: 400;
@@ -52,8 +50,6 @@ p {
 .TextPage {
   text-align: center;
 }
-
-
 
 .ContactMeContainer {
   display: flex;
@@ -73,3 +69,65 @@ p {
 }
 
 
+/*for mobile*/
+@media only screen and (min-width: 375px) (max-width: 441px) {
+
+
+.Text {
+  font-size: 5rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 6rem;
+}
+.TextPage {
+  text-align: center;
+}
+
+.ContactMeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.ContactImg{
+  height: 150px;
+  width: auto;
+}
+
+.ContactText {
+  margin-top: 7rem;
+  
+}
+}
+
+/*for tablet*/
+@media only screen and (min-width: 442px)(max-width: 700px){
+
+
+  .Text {
+    font-size: 5rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 6rem;
+  }
+  .TextPage {
+    text-align: center;
+  }
+  
+  .ContactMeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+  
+  .ContactImg{
+    height: 200px;
+    width: auto;
+  }
+  
+  .ContactText {
+    margin-top: 7rem;
+    
+  }
+  }
+  

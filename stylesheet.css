@@ -104,17 +104,7 @@ Button {
     cursor: pointer;
     overflow:hidden;
 }
-span {
-    background: rgb(161, 161, 161);
-    height: 100%;
-    width: 0;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
 
-}
 button:hover {
     width: 100%;
 }
@@ -169,17 +159,6 @@ Button {
     cursor: pointer;
     overflow:hidden;
 }
-span {
-    background: rgb(161, 161, 161);
-    height: 100%;
-    width: 0;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-
-}
 button:hover {
     width: 100%;
 }
@@ -231,15 +210,16 @@ button:hover {
 
 /*Mobile style*/
 
-@media only screen and (max-width: 441px) {
-body{
-  display: flex;
-  flex-direction: column; 
+@media only screen and (min-width: 375px) (max-width: 441px) {
+
+ body{
+display: flex;
+ flex-direction: column;
 }
+
 /*Text styles*/
 .Name {
-    margin-left: 50%;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     top: 3vh;
     font-weight: 400;
 }
@@ -253,7 +233,6 @@ p {
 
 /*Second Section styles*/
 .two {
-    background-color: black;
     display: flex;
     height: 69vh;
 }
@@ -261,14 +240,14 @@ p {
     display: flex;
     flex-direction: row;
     align-content:space-between;
-    margin:0
+    margin:0;
 }
 .DescriptionText{
     margin-top:0.5rem;
 
 }
 .AboutMeImg{
-    width: 175px;
+    width: 145px;
     height: 110px;
     margin:1rem;
    
@@ -360,12 +339,8 @@ p {
 }
 
 /**Tablet  styles**/
-@media only screen and (min-width: 442px)  {
+@media only screen and (min-width: 442px) (max-width: 767px) {
 
-sections {
- display: flex;
- flex-direction: column;
-}
 
 /*Text styles*/
 .Name {

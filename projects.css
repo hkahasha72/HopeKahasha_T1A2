@@ -79,3 +79,81 @@ p {
 }
 
 
+
+/*mobile styling*/
+@media only screen and (min-width: 375px)(max-width: 441px) {
+    
+    /*Text stylings*/
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+
+        font-size: 0.97rem;
+    }
+    p {
+        font-size: 0.60rem;
+    }
+    
+    
+    
+    /*First section components and styling*/
+    
+    .ProjectImgOne {
+        width: auto;
+        height: 150px;
+    }
+    .FirstProjectSummary {
+        gap: 0.5rem;
+    }
+    
+    
+    
+    /*First section components and styling*/
+    .ProjectImgTwo {
+        width: auto;
+        height: 150px;
+    }
+    .SecondProjectSummary {
+        gap: 0.5rem;
+    }
+}
+    /*Tablet styling*/
+    @media only screen and (min-width: 442px)(max-width: 700px) {
+    
+        /*Text stylings*/
+        h1 {
+            font-size: 3rem;
+        }
+        h2 {
+    
+            font-size: 0.97rem;
+        }
+        p {
+            font-size: 0.60rem;
+        }
+        
+        
+        
+        /*First section components and styling*/
+        
+        .ProjectImgOne {
+            width: auto;
+            height: 150px;
+        }
+        .FirstProjectSummary {
+            gap: 0.5rem;
+        }
+        
+        
+        
+        /*First section components and styling*/
+        .ProjectImgTwo {
+            width: auto;
+            height: 150px;
+        }
+        .SecondProjectSummary {
+            gap: 0.5rem;
+        }
+
+    }

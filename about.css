@@ -21,29 +21,6 @@ section {
 .BodyContainer {
     position: relative;
 }
-#st{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    height: 100vh;
-}
-.nd {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-.rd {
-    background-color: black;
-}
-.rth {
-    background-color: black;
-    height: 30vh;
-}
-
-
-
 h1 {
     color: white;
     font-size: 7rem;
@@ -55,11 +32,27 @@ h2 {
 p {
     color: white;
 }
+
+
+#st{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+
+.nd {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 .About{
     margin-bottom: 11rem;
     margin-right: 2rem;
 }
-
 
 .AboutMeSummaryImg {
     width: 370px;
@@ -79,6 +72,12 @@ p {
     margin-right: 15rem;
 }
 
+
+
+
+.rd {
+    background-color: black;
+}
 .GoalsImg {
     width: 370px;
     height: auto;
@@ -97,6 +96,16 @@ p {
     margin-top: 11rem;
 }
 
+
+
+
+
+
+.rth {
+    background-color: black;
+    height: 30vh;
+}
+
 .ExperienceSummary {
     display: flex;
     align-content:space-between;
@@ -113,7 +122,6 @@ p {
     margin-right: 12rem;
 }
 
-
 button {
     position: relative;
     background: transparent;
@@ -128,17 +136,7 @@ button {
     cursor: pointer;
     overflow:hidden;
 }
-span {
-    background: rgb(161, 161, 161);
-    height: 100%;
-    width: 0;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
 
-}
 button:hover {
     width: 100%;
 }
@@ -158,6 +156,256 @@ button:hover {
     margin-top: 20rem;
 }
 .BlogSummaryText {
-    margin-left: 13rem;
+    margin-left: 12rem;
     margin-top: 11rem;
+}
+
+
+/*Mobile Devices*/
+@media only screen and (min-width: 375px) (max-width: 441px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #st{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        height: 100vh;
+    }
+    .About{
+        margin-right: 2rem;
+    }
+    
+    .nd {
+        background-color: black;
+        display: flex;
+        height: 78vh;
+    }
+   
+    p {
+        font-size: 0.55rem;
+    }
+    .AboutMeSummaryImg {
+        width: 270px;
+        height: 400px;
+        margin-left: 1.5rem;
+    }
+    .AboutMeSummary {
+        margin-top: 0.1rem;
+        
+    }
+    
+    .AboutSummary {
+        justify-content:flex-start;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        
+    }
+    
+    .rd {
+        background-color: black;
+        height: 67vh;
+    }
+    .GoalsImg {
+        width: 270px;
+        height: 400px;
+        margin-left:1.5rem;
+    }
+    
+    .GoalsSummary   {
+        display: flex;
+        justify-content:flex-start;
+        align-content:space-between;
+        gap: 1rem;
+        margin-left:0.5rem;
+        margin-top: -22rem;
+    }
+    .GoalsSummaryText {
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+    
+    
+
+    
+    .rth {
+        background-color: black;
+        height: 30vh;
+    }
+    
+    .ExperienceSummary {
+        display: flex;
+        align-content:space-between;
+        gap: 2rem;
+    }
+    .ExperienceImg {
+        width: 270px;
+        height: 400px;
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+    .ExperienceSummaryText {
+        margin-top: 10rem;
+    }
+    
+    button {
+        width: 95px;
+      padding: 10px;
+     font-size: 0.65rem;
+     margin: 0;
+    margin-top: 1.5rem;   
+    }
+    button:hover {
+        width: 100%;
+    }
+    
+    .BlogImg {
+        width: 270px;
+        height: 400px;
+    }
+    
+    .BlogSummary   {
+        display: flex;
+        justify-content:flex-start;
+        align-content:space-between;
+        gap: 1rem;
+
+        margin-bottom:22rem; 
+        margin-top: 20rem;
+    }
+    .BlogSummaryText {
+        margin-left: 13rem;
+        margin-top: 11rem;
+    }
+
+
+}
+/*Tablet Devices*/
+@media only screen and (min-width: 441px)(max-width: 800px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #st{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        height: 100vh;
+    }
+    .About{
+        margin-right: 2rem;
+    }
+    
+    .nd {
+        background-color: black;
+        display: flex;
+        height: 78vh;
+    }
+   
+    p {
+        font-size: 0.75rem;
+    }
+    .AboutMeSummaryImg {
+        width: 270px;
+        height: 400px;
+        margin-left: 1.5rem;
+    }
+    .AboutMeSummary {
+        margin-top: 0.1rem;
+        
+    }
+    
+    .AboutSummary {
+        justify-content:flex-start;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        
+    }
+    
+    .rd {
+
+        height: 47vh;
+    }
+    .GoalsImg {
+        width: 270px;
+        height: 400px;
+        margin-left:5.5rem;
+    }
+    
+    .GoalsSummary   {
+        display: flex;
+        justify-content:flex-start;
+        align-content:space-between;
+        gap: 1rem;
+        margin-top: -22rem;
+    }
+    .GoalsSummaryText {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    
+    
+
+    
+    .rth {
+        background-color: black;
+        height: 30vh;
+    }
+    
+    .ExperienceSummary {
+        display: flex;
+        align-content:space-between;
+        gap: 2rem;
+    }
+    .ExperienceImg {
+        width: 270px;
+        height: 400px;
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+    .ExperienceSummaryText {
+        margin-top: 10rem;
+    }
+    
+    button {
+        width: 95px;
+      padding: 10px;
+     font-size: 0.65rem;
+     margin: 0;
+    margin-top: 1.5rem;   
+    }
+    button:hover {
+        width: 100%;
+    }
+    
+    .BlogImg {
+        width: 270px;
+        height: 400px;
+        margin-left:5.5rem;
+    }
+    
+    .BlogSummary   {
+        display: flex;
+        justify-content:flex-start;
+        align-content:space-between;
+        gap: 1rem;
+        margin-left:4rem;
+    }
+    .BlogSummaryText {
+        margin-left: 3rem;
+        margin-top: 2.5rem;
+    }
+
+
 }

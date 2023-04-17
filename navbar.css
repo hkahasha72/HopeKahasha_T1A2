@@ -8,8 +8,6 @@ font-family: 'Playfair Display', serif;
 }
 
 
-
-
 nav {
 background-color: transparent;
 display: flex;
@@ -34,7 +32,7 @@ list-style-type: none;
 display: inline-block;
 padding: 22px 20px;
 }
-/*Nav Text Decor and Style*/
+   /*Nav Text Decor and Style*/
 nav ul li a {
 color: white;
 text-decoration: none;
@@ -69,9 +67,4 @@ color: #ffffff;
 transition: 0.3s;
 }
 
-@media only screen and (max-width: 600px) {
-    header nav {
-        display: none;
-    }
-}
 
