@@ -20,7 +20,7 @@ Sitemap
 Screenshots
 
 in these screenshot you will see the gist of my website when in different responsive frames such as mobile and tablet, i attempted to make my website flow as best as possible with text, color and theme.
-![Screenshots](/Users/hopekahasha/projects/web/HopeKahasha_T1A2/images/Screen Shot 2023-04-17 at 11.36.04 pm.png)
+![Screenshots](https://github.com/hkahasha72/HopeKahasha_T1A2/issues/1#issue-1671348343)
 
 
 
