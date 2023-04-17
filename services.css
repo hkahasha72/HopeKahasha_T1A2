@@ -1,0 +1,87 @@
+*{
+ margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  background-color: black;
+}
+
+.Bodycontainer {
+ position: relative;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}  
+h1 {
+ color: white;
+ font-size: 7rem;
+ font-weight: 100;
+}
+h2{
+ color: white;
+}
+h3{
+  color: white;
+}
+p {
+  color: white;
+  font-size: 0.7rem; 
+}
+.ServiceText {
+  margin-top: 7rem;
+  
+  
+}
+
+
+/*First Section Compents, Big Heading/ cover*/
+#FirstSection  {
+  display: flex;
+  justify-content: center;
+}
+.ServiceProvided {
+  margin-top: 19rem;
+ 
+}
+
+
+
+/*Second Section with thw services listed*/
+.SecondSector {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  height: 250vh;
+} 
+.Services {
+  display: flex;
+  justify-content:center;
+  align-content:space-between;
+  gap: 4rem;
+  align-items: center;
+  margin:13.5rem;
+}
+.ServiceImg{
+  height: 300px;
+  width: auto;
+}
+/*Second div (image group) in same section*/
+.MiddleServices {
+  display: flex;
+  justify-content:center;
+  align-content:space-between;
+  gap: 4rem;
+  align-items: center;
+  margin-left: 15rem;
+  margin-right:15rem;
+}
+.MiddleServiceImg{
+  height: 300px;
+  width: auto;
+}
+
+  

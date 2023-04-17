@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Playfair Display', serif;
+}
+
+
+
+
+nav {
+background-color: transparent;
+display: flex;
+align-items: center; 
+justify-content: space-between;
+padding-top: 40px;
+padding-left: 10%;
+padding-right: 20%;
+color: white;
+}
+
+.logo {
+color: white;
+font-size: 28px;
+}
+
+
+
+/*Nav Bar Placement and Style */
+nav ul li {
+list-style-type: none;
+display: inline-block;
+padding: 22px 20px;
+}
+/*Nav Text Decor and Style*/
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+position: relative;
+text-decoration: none;
+color: #c2c2c2;
+font-size: 18px;
+letter-spacing: 3px;
+padding: 0 0.5px;
+}
+nav ul li {
+float: left;
+}
+
+/*Nav Bar Animation Style */
+nav ul li a:after {
+content: "";
+position: absolute;
+background-color:white; 
+height: 3px;
+width: 0;
+left: 0;
+bottom: -10px;
+transition: 0.3s;
+}
+nav ul li a:hover:after {
+width:100%;
+}
+nav ul li a:hover {
+color: #ffffff;
+transition: 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+}
+

@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  background-color: black;
+
+}
+
+
+/*Desktop styles*/
+
+section {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+p {
+  color: white;
+  font-size: 0.7rem;
+ 
+}
+
+
+
+#one  {
+  background-color: black;
+  height: 90vh;
+  align-items: center;
+
+}
+.Second {
+  background-color: black;
+  display: flex;
+}
+
+
+.Text {
+  font-size: 5rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 6rem;
+}
+.TextPage {
+  text-align: center;
+}
+
+
+
+.ContactMeContainer {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.ContactImg{
+  height: 400px;
+  width: 500px;
+  margin
+
+}
+
+.ContactText {
+  margin-top: 7rem;
+  
+}
+
+

@@ -1,0 +1,20 @@
+.five {
+    background-color: black;
+    height: 27vh;
+    border-top-style: inset;
+    border-top-width: 0.3px;
+    border-top-color: grey;
+}
+
+.six {
+    background-color: black;
+    height: 7vh;
+    border-top-style: inset;
+    border-top-width: 0.3px;
+    border-top-color: grey;
+}
+.SocialMediaIconsBar {
+    display: flex;
+    align-items: center;
+}
+

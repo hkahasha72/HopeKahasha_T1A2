@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    background-color: black;
+}
+.BodyContainer {
+    position: relative;
+}
+section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/*Text stylings*/
+h1 {
+    color: white;
+    font-size: 7rem;
+    font-weight: 100;
+}
+h2 {
+    color: white;
+}
+p {
+    color: white;
+}
+
+
+
+/*First section components and styling*/
+#st{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    height: 100vh;
+}
+.ProjectImgOne {
+    width: auto;
+    height: 200px;
+}
+.FirstProjectSummary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+
+/*First section components and styling*/
+.ndsection {
+    background-color: black;
+    height: 85vh;
+}
+.ProjectImgTwo {
+    width: auto;
+    height: 200px;
+}
+.SecondProjectSummary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+
+
+/*Div with text styling and placements */
+.ProjectSummary {
+    display: flex;
+    flex-direction: row;
+}
+
+
