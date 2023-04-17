@@ -231,7 +231,7 @@ button:hover {
 
 /*Mobile style*/
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 441px) {
 body{
   display: flex;
   flex-direction: column; 
@@ -359,3 +359,132 @@ p {
 }
 }
 
+/**Tablet  styles**/
+@media only screen and (min-width: 442px)  {
+
+sections {
+ display: flex;
+ flex-direction: column;
+}
+
+/*Text styles*/
+.Name {
+    margin-left: 3.5rem;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-left: 15rem;
+}
+
+.NameP {
+    font-size: 0.55rem;
+    margin-left: 17rem;
+}
+
+/*Second Section styles*/
+.two {
+    background-color: black;
+    display: flex;
+    height: 69vh;
+}
+.Description {
+    display: flex;
+    flex-direction: row;
+    align-content:space-between;
+    margin:0;
+}
+.DescriptionText{
+    margin-top:2rem;
+    margin-right:-5rem;
+
+}
+.AboutMeImg{
+    width: 295px;
+    height: 230px;
+    margin:1rem;
+   
+}
+#AboutMeTitle {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+#FirstButton {  
+ width: 95px;
+ padding: 10px;
+ font-size: 0.65rem;
+ margin: 0;
+ margin-top: 1.5rem;   
+}
+
+
+/*Third Section Hobbies and Skills styling*/
+.three  {
+    background-color:black;
+    height:77vh;
+   
+}
+.SkillsPost {
+    display: flex;
+  
+}     
+
+.SubTitle {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-right: 12rem;
+}
+
+.SkillsSummary{
+ margin-left: 0.5rem;
+ margin-right: 3.5rem;
+ font-size: 0.77rem;
+}
+#SkillsList {
+    font-size: 0.67rem;
+    margin-right: 7rem;
+    margin-top: -1.5rem;
+}
+.SkillsImg {
+    width: 357px;
+    height: 406px;
+    margin-left: 27rem;
+}
+#SecondButton {  
+    width: 95px;
+    padding: 10px;
+    font-size: 0.65rem;   
+    
+}
+
+/*Fourth Section 'More Content' styling*/
+#MoreMiddleBlogPostImg{
+    width: 150px;
+    height: 75px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+#MoreBlogPostImg{
+    width: 150px;
+    height: 255px;
+}
+/*Text for fourth section*/
+.MoreText {
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem; 
+    margin-left: 9.7rem;
+}
+.MoreTitle {
+    display: flex;
+    justify-content: center;
+    
+}
+.MainBox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 12rem;
+}
+.SocialMediaIconsBar {
+    display: flex;
+    margin-left: 14rem;
+}
+}
